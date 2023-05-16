@@ -34,7 +34,7 @@ Formatter.setup = function ()
             else
                 item_name = e.text
             end
-            table.insert(item_names, item_name)
+            table.insert(item_names, i, item_name)
             name_max_size = math.max(name_max_size, #item_name)
         end
 
